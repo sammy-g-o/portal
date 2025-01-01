@@ -1,0 +1,30 @@
+.Hotspot {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.Hotspot img {
+  width: 350px;
+  height: 196.88px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+}
+.Hotspot h3 {
+  font-family: Aleo;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Hotspot p {
+  font-family: Aleo;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

@@ -1,0 +1,13 @@
+.enrolledSection{
+  margin-top: 177px;
+}
+.enrolledSection h1{
+  font-family: Aleo;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76.8px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #030F4B;
+}

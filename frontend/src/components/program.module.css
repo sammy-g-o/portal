@@ -1,0 +1,16 @@
+.program {
+  width: 219px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.program h3 {
+  font-family: Aleo;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #030F4B;
+}

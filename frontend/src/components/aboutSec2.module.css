@@ -1,0 +1,114 @@
+.aboutsec2 {
+  position: relative;
+}
+.background img {
+  width: 100%;
+  height: 791px;
+  bottom: -100;
+  position: absolute;
+}
+.housevision {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 63px 115px 202px 40px;
+  position: relative;
+  z-index: 100;
+  background-color: #00000033;
+  ;
+}
+.whoweare {
+  width: 645px;
+  height: 526px;
+  border-radius: 16px;
+  border: 3px solid #0540f280;
+  opacity: 0px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  padding: 10px;
+}
+.whoweare h2 {
+  font-family: Aleo;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: auto;
+}
+.whoweare p {
+  font-family: Aleo;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 15px 20px;
+}
+.vision {
+  width: 502px;
+  height: 526px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 3px solid #0540f280;
+  opacity: 0px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.vision h2 {
+  font-family: Aleo;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: auto;
+}
+.vision ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0px 40px;
+}
+.vision ul li {
+  font-family: Aleo;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.mission {
+  width: 284px;
+  height: 284px;
+  top: 393px;
+  left: 290px;
+  padding: 77px 96px 175px 63px;
+  gap: 0px;
+  border-radius: 300px;
+  opacity: 0px;
+  background: #0540f2;
+  position: absolute;
+  right: 0px;
+  font-family: Aleo;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,9 @@
+.collegeSection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 0px;
+}
+.collegeSection h3{
+    padding-left: 90px;
+}

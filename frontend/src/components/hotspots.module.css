@@ -1,0 +1,21 @@
+.HotspotsWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 32px 40px;
+}
+.Hotspots {
+  height: 1272px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Hotspots h2 {
+  font-family: Aleo;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

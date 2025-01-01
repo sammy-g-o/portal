@@ -1,0 +1,55 @@
+.navsection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  display: flex;
+  width: 97%;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Aleo;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 500;
+  gap: 0.6875rem;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.nav ul li {
+  padding: 35px 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav a{
+  color: #808396;
+  text-decoration: none;
+}
+.nav a.active{
+  color: #030F4B;
+}
+.loginSignup {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: #1e1e4b;
+}
+.signup {
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  width: 120px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #0540f2;
+  border-radius: 16px;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+}
