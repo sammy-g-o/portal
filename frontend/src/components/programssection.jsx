@@ -17,7 +17,7 @@ function Programssection() {
           <Program img="images/AerospaceEng.jpg">
             MSc in Aerospace Engineering{" "}
           </Program>
-          <Program img="images/Biomed.jpg">
+          <Program img="images/BioMed.jpg">
             MSc in Biomedical Engineering{" "}
           </Program>
         </div>
@@ -29,7 +29,7 @@ function Programssection() {
           <Program img="images/Chemistry.jpg">MSc in Chemistry </Program>
           <Program img="images/Physics.jpg">MSc in Physics </Program>
           <Program img="images/Mathematics.jpg">MSc in Mathematics </Program>
-          <Program img="images/Goelogy.jpg">MSc in Goelogy </Program>
+          <Program img="images/Geology.jpg">MSc in Goelogy </Program>
         </div>
       </Programs>
       <Programs>
@@ -53,7 +53,7 @@ function Programssection() {
           <Program img="images/Philosophy.jpg">MSc in Philosophy </Program>
           <Program img="images/Music.jpg">MSc in Music Education </Program>
           <Program img="images/Journalism.jpg">MSc in Journalism </Program>
-          <Program img="images/theatre.jpg">MSc in theatre arts </Program>
+          <Program img="images/Theatre.jpg">MSc in theatre arts </Program>
         </div>
       </Programs>
     </section>
