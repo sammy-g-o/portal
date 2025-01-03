@@ -131,7 +131,7 @@ function Register() {
               </div>
               <input type="submit" value="Register" className={style.submit} />
               <div className={style.row3}>
-                <p>Don&apos;t have an account?</p> <NavLink>Register</NavLink>
+                <p>Already have an account?</p> <NavLink to='/login'>Login</NavLink>
               </div>
               <div className={style.row4}>
                 <p>
