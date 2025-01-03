@@ -51,7 +51,14 @@ function Nav() {
               Login
             </NavLink>
           </h4>
-          <h4 className={style.signup}>Register</h4>
+          <h4 className={style.signup}>
+            <NavLink
+              to="/register"
+              className={({ isActive }) => (isActive ? style.active : "")}
+            >
+              Register
+            </NavLink>
+          </h4>
         </div>
       </nav>
     </section>

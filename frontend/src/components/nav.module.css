@@ -46,10 +46,12 @@
   padding: 10px;
   width: 120px;
   height: 40px;
-  color: #ffffff;
   background-color: #0540f2;
   border-radius: 16px;
   justify-content: center;
+}
+.signup a{
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
 }

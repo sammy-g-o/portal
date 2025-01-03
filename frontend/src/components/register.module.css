@@ -1,0 +1,164 @@
+.registerSection {
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 50px 0px;
+  }
+  .loginSectionWrapper {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 177px;
+  }
+  .loginSectionWrapper .image {
+    background-image: url("/images/login.jpg");
+    height: 100%;
+    width: 646px;
+    background-size: cover;
+  }
+  .registerSectionCol2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .registerSectionCol2 h2 {
+    font-family: Aleo;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .registerSectionCol2 form {
+    width: 465px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 16px;
+    background: #0540f280;
+    padding-top: 40px;
+    opacity: 0px;
+  }
+  .registerSectionCol2 form h3 {
+    font-family: Aleo;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .registerSectionCol2 form #nameandpass {
+    width: 411px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    font-family: Aleo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .registerSectionCol2 form .nameandpass {
+    width: 411px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    font-family: Aleo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .registerSectionCol2 form .submit {
+    width: 120px;
+    height: 39px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: #0d1f23;
+    color: #ffffff;
+    font-family: Aleo;
+    font-size: 16px;
+    font-weight: 600;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .registerSectionCol2 form .row3 {
+    display: flex;
+    gap: 40px;
+  }
+  .registerSectionCol2 form .row3 p {
+    font-family: Aleo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .registerSectionCol2 form .row3 a {
+    font-family: Aleo;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: auto;
+    color: #0d1f23;
+  }
+  .registerSectionCol2 form label {
+    font-family: Aleo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+  }
+  .registerSectionCol2 form .row4 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .registerSectionCol2 form .row4 p {
+    display: flex;
+    align-items: center;
+  }
+  .registerSectionCol2 form .row4 a {
+    font-family: Aleo;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: auto;
+  }
+  .registerSectionCol2 form .row4 input {
+    width: 24px;
+    height: 24px;
+    border-radius: 84px;
+  }
+  

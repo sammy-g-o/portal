@@ -5,6 +5,7 @@ import About from "../pages/about"
 import Loginpage from "../pages/login"
 import Campus from "../pages/campus"
 import ProgramsPage from "../pages/programsPage"
+import RegisterPage from "../pages/registerPage"
 function App() {
 
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/login" element={<Loginpage />}/>
         <Route path="/campus" element={<Campus />}/>
         <Route path="/programs" element={<ProgramsPage />}/>
+        <Route path="/register" element={<RegisterPage />}/>
       </Routes>
       </BrowserRouter>
       {/* <SpeedInsights /> */}
