@@ -4,9 +4,14 @@ import { NavLink } from "react-router-dom";
 function Register() {
   // State to manage form inputs
   const [formData, setFormData] = useState({
+    surname: "",
+    middleName: "",
+    firstName: "",
     username: "",
     email: "",
+    role: "",
     password: "",
+    gender: "",
     confirmPassword: "",
   });
 
@@ -64,8 +69,13 @@ function Register() {
 
       setSuccessMessage("Registration successful!");
       setFormData({
+        surname: "",
+        middleName: "",
+        firstName: "",
         username: "",
         email: "",
+        role: "",
+        gender: "",
         password: "",
         confirmPassword: "",
       });
@@ -90,19 +100,48 @@ function Register() {
               {errors.apiError && (
                 <p style={{ color: "red" }}>{errors.apiError}</p>
               )}
+              <input
+                type="text"
+                name="surname"
+                value={formData.surname}
+                onChange={handleChange}
+                className={style.nameandpass}
+                placeholder="Surname"
+              />
+              <input
+                type="text"
+                name="middleName"
+                value={formData.middleName}
+                onChange={handleChange}
+                className={style.nameandpass}
+                placeholder="Middle name"
+              />
               <div>
                 <input
                   type="text"
-                  name="username"
-                  value={formData.username}
+                  name="firstName"
+                  value={formData.firstName}
                   onChange={handleChange}
                   className={style.nameandpass}
-                  placeholder="Username"
+                  placeholder="First name"
                 />
-                {errors.username && (
-                  <p style={{ color: "red" }}>{errors.username}</p>
-                )}
               </div>
+              <div>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  value={formData.email}
+                  className={style.nameandpass}
+                  onChange={handleChange}
+                />
+                {errors.email && <p className="error">{errors.email}</p>}
+              </div>
+              <select name="role" value={formData.role} onChange={handleChange} className={style.nameandpass}>
+                <option value="">Select Role</option>
+                <option value="Admin">Admin</option>
+                <option value="Applicant">Applicant</option>
+              </select>
               <div>
                 <input
                   type="password"
@@ -129,9 +168,18 @@ function Register() {
                   <p style={{ color: "red" }}>{errors.confirmPassword}</p>
                 )}
               </div>
+              <input
+                type="text"
+                name="gender"
+                placeholder="Gender"
+                value={formData.gender}
+                className={style.nameandpass}
+                onChange={handleChange}
+              />
               <input type="submit" value="Register" className={style.submit} />
               <div className={style.row3}>
-                <p>Already have an account?</p> <NavLink to='/login'>Login</NavLink>
+                <p>Already have an account?</p>{" "}
+                <NavLink to="/login">Login</NavLink>
               </div>
               <div className={style.row4}>
                 <p>
