@@ -27,12 +27,12 @@
   font-size: 18px;
   font-weight: 500;
 }
-.nav a{
+.nav a {
   color: #808396;
   text-decoration: none;
 }
-.nav a.active{
-  color: #030F4B;
+.nav a.active {
+  color: #030f4b;
 }
 .loginSignup {
   display: flex;
@@ -50,8 +50,45 @@
   border-radius: 16px;
   justify-content: center;
 }
-.signup a{
+.signup a {
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
+}
+
+/* Hamburger menu - hidden by default */
+.sideNav {
+  display: none;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 480px) {
+  
+  /* Show hamburger menu on mobile */
+  .sideNav {
+    display: block;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+
+  /* Hide desktop navigation links on mobile */
+  .nav ul {
+    display: none;
+  }
+
+  /* Hide desktop login/signup buttons on mobile */
+  .loginSignup {
+    display: none;
+  }
+
+  /* Adjust nav alignment */
+  .nav {
+    align-items: center;
+  }
+
+  /* Smaller logo on mobile */
+  .logo {
+    font-size: 20px;
+    padding: 10px;
+  }
 }

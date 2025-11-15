@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
 }
+
 .admissionProcessSection {
   width: 90%;
   display: flex;
@@ -22,6 +23,7 @@
   color: #0540f2;
   margin-bottom: 54px;
 }
+
 .admissionProcessSection .subHeading {
   font-family: Aleo;
   font-size: 20px;
@@ -31,10 +33,14 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
+
 .admissionProcessSection .row2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 2.5rem;
+  /* flex-wrap: wrap; */
 }
+
 .admissionProcessSection .col2 {
   width: 631px;
   display: flex;
@@ -42,12 +48,14 @@
   justify-content: space-between;
   margin-top: 30px;
 }
+
 .admissionProcessSection .col2List {
   width: 631px;
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
+
 .admissionProcessSection .col2List p {
   display: flex;
   align-items: center;
@@ -61,6 +69,7 @@
   text-decoration-skip-ink: none;
   color: #222222;
 }
+
 .admissionProcessSection .col2 a {
   text-decoration: none;
   background-color: #0540f2;

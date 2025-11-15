@@ -1,7 +1,8 @@
-.enrolledSection{
+.enrolledSection {
   margin-top: 177px;
+  width: 100vw;
 }
-.enrolledSection h1{
+.enrolledSection h1 {
   font-family: Aleo;
   font-size: 64px;
   font-weight: 600;
@@ -9,5 +10,8 @@
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #030F4B;
+  color: #030f4b;
+}
+.enrolledSection img {
+  width: 100%;
 }
