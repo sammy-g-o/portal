@@ -88,3 +88,49 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
+
+@media screen and (max-width: 1024px) {
+  .admissionProcessWrapper {
+    margin-top: 50px;
+  }
+  .admissionProcessSection {
+    width: 90%;
+    margin: 0 auto;
+    gap: 30px;
+  }
+  .admissionProcessSection .heading {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+  .admissionProcessSection .subHeading {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .admissionProcessSection .row2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .admissionProcessSection .col1 img {
+    width: 100%;
+    height: auto;
+  }
+  .admissionProcessSection .col2 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .admissionProcessSection .col2List {
+    width: 100%;
+    gap: 20px;
+  }
+  .admissionProcessSection .col2List p {
+    font-size: 18px;
+    line-height: 24px;
+    gap: 16px;
+  }
+  .admissionProcessSection .col2 a {
+    width: 100%;
+    font-size: 20px;
+  }
+}

@@ -10,3 +10,14 @@
     position: absolute;
     right: 0px;
 }
+
+@media screen and (max-width: 850px) {
+    .campusFooter {
+        height: 150px;
+    }
+    .campusFooter img {
+        height: 100%;
+        width: auto;
+        opacity: 0.5; /* Fade it out a bit as it might look weird */
+    }
+}

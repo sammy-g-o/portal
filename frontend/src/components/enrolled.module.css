@@ -15,3 +15,14 @@
 .enrolledSection img {
   width: 100%;
 }
+
+@media screen and (max-width: 850px) {
+  .enrolledSection {
+    margin-top: 50px;
+  }
+  .enrolledSection h1 {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 20px;
+  }
+}

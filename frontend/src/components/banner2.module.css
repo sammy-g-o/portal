@@ -27,3 +27,18 @@
   text-decoration-skip-ink: none;
   color: white;
 }
+.CampusBanner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 850px) {
+  .CampusBanner {
+    height: 250px;
+  }
+  .CampusBanner .overlay h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}

@@ -1,8 +1,190 @@
-.aboutsec1{
+.aboutsec1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 40px;
+  padding-bottom: 59px;
+}
 
+.founderSection {
+  display: flex;
+}
+
+.founderImageWrapper {
+  z-index: 50;
+}
+
+.founderInfoWrapper {
+  position: relative;
+  width: 320px;
+}
+
+.founderTitle {
+  font-family: "Abyssinica SIL";
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 100px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #e8eced;
+  position: absolute;
+  top: -25px;
+}
+
+.founderCard {
+  width: 320px;
+  height: 446px;
+  box-shadow: 10px 10px 0px 0px #0540f2;
+  position: absolute;
+  background-color: white;
+  left: -60px;
+  top: 40px;
+  z-index: 100;
+  padding: 10px 10px;
+}
+
+.founderCardHeader {
+  font-family: "Aleo";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.founderCardText {
+  font-family: "Abyssinica SIL";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding: 10px;
+}
+
+.founderCardFooter {
+  padding: 20px;
+}
+
+.founderNameTitle {
+  color: #0540f2;
+  font-family: "Abyssinica SIL";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.founderName {
+  color: #667f83;
+  font-family: "Abyssinica SIL";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.aboutUsSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutUsCard {
+  width: 645px;
+  height: 270px;
+  padding: 16px 38px 16px 16px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+  background: #ffffff;
+  border: 3px solid #0540f280;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.aboutUsTitle {
+  font-family: "Aleo";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: auto;
+}
+
+.aboutUsText {
+  font-family: "Aleo";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .aboutsec1 {
+    flex-direction: column;
+    padding-left: 0;
+    padding-bottom: 20px;
+    gap: 40px;
+  }
+  
+  .founderSection {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .founderImageWrapper img {
     width: 100%;
-display: flex;
-justify-content: space-around;
-    padding-left: 40px;
-    padding-bottom: 59px;
+    max-width: 300px;
+  }
+  
+  .founderInfoWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .founderTitle {
+    display: none; /* Hide huge text on mobile or make it smaller/static */
+  }
+  
+  .founderCard {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 90%;
+    height: auto;
+  }
+  
+  .aboutUsSection {
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .aboutUsCard {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  
+  .aboutUsText {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 10px;
+  }
 }

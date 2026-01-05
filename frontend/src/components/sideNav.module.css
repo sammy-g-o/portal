@@ -1,14 +1,14 @@
-/* Mobile Side Navigation Styles */
-@media screen and (max-width: 480px) {
+/* Mobile and Tablet Side Navigation Styles */
+@media screen and (max-width: 850px) {
   /* Overlay backdrop */
   .sideNavModel {
     width: 100vw !important;
     height: 100vh !important;
     z-index: 1010;
     background-color: rgba(0, 0, 0, 0.6);
-    position: absolute !important;
-    top: 35 !important;
-    right: 0 !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
   }
   .sideNavWrap {
     height: 100%;

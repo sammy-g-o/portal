@@ -61,8 +61,8 @@
   display: none;
 }
 
-/* Mobile Styles */
-@media screen and (max-width: 480px) {
+/* Mobile and Tablet Styles */
+@media screen and (max-width: 850px) {
   
   /* Show hamburger menu on mobile */
   .sideNav {
@@ -88,7 +88,7 @@
 
   /* Smaller logo on mobile */
   .logo {
-    font-size: 20px;
+    font-size: 24px;
     padding: 10px;
   }
 }

@@ -66,3 +66,29 @@ footer .footerLists .logo p {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
+
+@media screen and (max-width: 900px) {
+  footer {
+    padding: 40px 20px;
+  }
+  footer .footerLists {
+    flex-direction: column;
+    gap: 40px;
+  }
+  footer .footerLists .logo {
+    width: 100%;
+  }
+  footer .footerLists .logo h1 {
+    width: 100%;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 16px;
+  }
+  footer .footerLists .logo p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  footer .footerLists ul {
+    gap: 12px;
+  }
+}

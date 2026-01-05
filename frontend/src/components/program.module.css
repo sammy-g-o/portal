@@ -14,3 +14,15 @@
   text-decoration-skip-ink: none;
   color: #030F4B;
 }
+
+@media screen and (max-width: 480px) {
+  .program {
+    width: 100%;
+    align-items: center;
+  }
+  .program img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+}
