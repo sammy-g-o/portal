@@ -3,7 +3,7 @@
   /* Overlay backdrop */
   .sideNavModel {
     width: 100vw !important;
-    height: 100vh !important;
+    height: 100dvh !important;
     z-index: 1010;
     background-color: rgba(0, 0, 0, 0.6);
     position: fixed !important;
@@ -44,7 +44,7 @@
     bottom: 0 !important; */
     width: 75%;
     max-width: 300px;
-    height: 100vh !important;
+    height: 100dvh !important;
     display: flex;
     flex-direction: column;
     background: linear-gradient(135deg, #353f5e 0%, #2a3347 100%);
